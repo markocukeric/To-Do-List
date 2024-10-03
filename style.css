@@ -1,0 +1,37 @@
+:root {
+    --gradient: #454851;
+}
+body {
+    background-color: var(--gradient);
+    margin: 0em;
+    height: 100vh;
+    display: flex;
+    flex direction: grid-row: width: ;
+    justify-content: space-evenly;
+
+}
+
+input{
+    background-color: #454851;
+}
+
+.sidebar{
+    
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #73956F;
+        position: left;
+        height: 100%;
+        overflow: auto;
+
+
+}
+
+.tasks{
+    background-color: #7BAE7F;
+    display: flex;
+    flex-direction: column;
+
+
+}
